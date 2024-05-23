@@ -67,9 +67,6 @@ export const Navbar = () => {
 									<div className="col-2">
 										<span className="navbar-brand h4 btn" onClick={() => navigate('/admin')}>Inicio</span>
 									</div>
-									<div className="col-2">
-										<span className="navbar-brand h4 btn" onClick={() => navigate('/')}>Sobre mi</span>
-									</div>
 								</>
 							) : isLogged ? (
 								<>
