@@ -110,7 +110,7 @@ def get_user(user_id):
 @app.route('/userProfile/<int:user_id>', methods=['POST'])
 def add_user_profile(user_id):
     data = request.get_json()
-    if 'name' not in data or 'last_name' not in data:
+    if 'nombre' not in data or 'apellidos' not in data:
         raise APIException('all fields are required', status_code=400)
 
     new_user_profile = User_profile(
@@ -119,7 +119,7 @@ def add_user_profile(user_id):
             age=data['edad'],
             genre=data['genero'],
             height=data['altura'],
-            injury=data.get('lesion'),
+            injury=False,
             additional_info=data['informacionAdicional'],
             user_id=user_id
     )
