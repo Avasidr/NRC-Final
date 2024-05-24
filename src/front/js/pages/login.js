@@ -40,7 +40,7 @@ export const Login = () => {
     }
 
     return (
-        <div className={styles.imgfondo} style={{ backgroundImage: "url('https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-6/326342168_852036582572276_1342480683664754514_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qLBF2A6IfTMQ7kNvgFtyMtT&_nc_ht=scontent-bcn1-1.xx&oh=00_AYDH22A6JVJwKiwzaDVoYkrHNrWSajHKleNzw5Zb-zcy2g&oe=664FFB96')" }}>
+        <div className={styles.imgfondo} style={{ backgroundImage: "url('https://i.ibb.co/v14HQKC/desktop-wallpaper-women-in-the-gym.jpg')" }}>
             <div className={styles.forms}>
                 <div className={styles.login}>
                     <h2>Acceso</h2>
